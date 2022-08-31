@@ -1,7 +1,5 @@
 package classe;
 
-import java.util.Arrays;
-
 //Desafio para estanciar o objeto Data
 public class DataTeste {
 
