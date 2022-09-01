@@ -7,12 +7,25 @@ public class Data {
     int mes;
     int ano;
 
+    Data () {
+        dia = 1;
+        mes = 1;
+        ano = 1970;
+    }
+
+    Data (int diaInicial, int mesInicial, int anoInicial) {
+        dia = diaInicial;
+        mes = mesInicial;
+        ano = anoInicial;
+    }
+
     String obterDataFormatada() {
 
-        //Para adicionar um 0 a esquerda para os meses menores que 10
+        //Para adicionar um 0 a esquerda para os meses e dias menores que 10
         String dataMes = String.format("%0" + 2 + "d", mes);
+        String dataDia = String.format("%0" + 2 + "d", dia);
 
-        return String.format("%d/%s/%d", dia, dataMes, ano);
+        return String.format("%s/%s/%d", dataDia, dataMes, ano);
     }
 
 }
