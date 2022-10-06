@@ -2,9 +2,18 @@ package oo.heranca.desafio01;
 
 public class Ferrari extends Carro{
 
-    @Override
-    void acelerar() {
-        this.velocidadeAtual += 15;
+    Ferrari(){
+        this(300);
     }
+
+    Ferrari(int velocidadeMaxima) {
+        super(velocidadeMaxima);
+        delta = 400;
+    }
+
+//    @Override
+//    void acelerar() {
+//        this.velocidadeAtual += 15;
+//    }
 
 }
