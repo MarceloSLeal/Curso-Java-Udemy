@@ -17,6 +17,12 @@ public class carroTeste {
         f1.acelerar();
         f1.acelerar();
 
+        f1.ligarTurbo();
+        f1.ligarAr();
+        f1.acelerar();
+        f1.desligarTurbo();
+        f1.desligarAr();
+
         c1.acelerar();
         c1.acelerar();
         c1.acelerar();
