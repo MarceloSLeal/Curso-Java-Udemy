@@ -23,6 +23,8 @@ public class carroTeste {
         f1.desligarTurbo();
         f1.desligarAr();
 
+        System.out.println(f1.velocidadeDoAr());
+
         c1.acelerar();
         c1.acelerar();
         c1.acelerar();
