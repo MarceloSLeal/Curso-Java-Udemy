@@ -4,5 +4,7 @@
 /out/
 .idea/
 .idea_modules/
+.gitignore
+misc.xml
 
 /inspectionProfiles/Project_Default.xml
