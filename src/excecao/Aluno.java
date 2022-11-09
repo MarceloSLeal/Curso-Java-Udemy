@@ -2,8 +2,8 @@ package excecao;
 
 public class Aluno {
 
-    final String nome;
-    final double nota;
+    public String nome;
+    public double nota;
 
     public Aluno(String nome, double nota) {
         this.nome = nome;
