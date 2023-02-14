@@ -4,8 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class ConsultarPessoas2 {
@@ -20,7 +18,7 @@ public class ConsultarPessoas2 {
 
         PreparedStatement stmt = conexao.prepareStatement(sql);
 
-        while (nome.equals("sair") == false) {
+        while (!nome.equals("sair")) {
             System.out.println("Digite uma parte de um nome para pesquisar SQL LIKE, sair para sair");
             nome = entrada.nextLine();
 
